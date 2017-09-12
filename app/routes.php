@@ -5,6 +5,9 @@ $router = new AltoRouter();
 // Index page mapping
 $router->map('GET', '/', 'DefaultController::display', 'index');
 
+// Avatar Pages
+$router->map('GET', '/avatar/create', 'AvatarController::displayCreate');
+
 /**
  * Function that handles the AltoRouter object - must be present in order for your routes to work
  * @param AltoRouter $router
