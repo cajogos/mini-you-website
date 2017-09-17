@@ -4,11 +4,11 @@
 {block name=body}
 
 <div class="container text-center" style="margin-top:80px">
-	<img src="/assets/images/planet.png" />
+	<img src="/assets/images/planet.png" style="width: 100%; max-width: 512px" />
 	<h1>Mini You World</h1>
 
 	<hr />
-	<h4><a href="https://mini-you.world" class="btn btn-lg btn-success">mini-you.world</a></h4>
+	<h4><a href="/avatar/create" class="btn btn-lg btn-success">Try Avatar Creator</a></h4>
 
 	<h3>Coming Soon...</h3>
 
