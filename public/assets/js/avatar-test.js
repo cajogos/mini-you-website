@@ -6,18 +6,22 @@ $(document).ready(function ()
 	MINI_YOU.init(editorElement, canvasElement);
 
     let code = `{
-    "info": {
-        "name": "Carlos",
-        "author": "cajogos@github"
-    },
-    "body": {
-        "shape": "shape1",
-        "color": "lightblue"
-    },
-    "shirt": {
-        "shape": "tshirt",
-        "color": "purple"
-    }
+	"info": {
+		"name": "Carlos",
+		"author": "cajogos@github"
+	},
+	"body": {
+		"shape": "shape1",
+		"color": "lightblue"
+	},
+	"tops": {
+		"shape": "vneck",
+		"color": "purple"
+	},
+	"bottoms": {
+		"shape": "shorts",
+		"color": "blue"
+	}
 }`;
 
 	MINI_YOU.EDITOR.setText(code);
