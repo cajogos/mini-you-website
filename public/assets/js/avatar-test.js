@@ -5,7 +5,7 @@ $(document).ready(function ()
 
 	MINI_YOU.init(editorElement, canvasElement);
 
-    let code = `{
+	let code = `{
 	"info": {
 		"name": "Carlos",
 		"author": "cajogos@github"
@@ -13,6 +13,10 @@ $(document).ready(function ()
 	"body": {
 		"shape": "shape1",
 		"color": "lightblue"
+	},
+	"eyes": {
+		"shape": "basic",
+		"color": "red"
 	},
 	"tops": {
 		"shape": "vneck",
