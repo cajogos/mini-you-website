@@ -5,28 +5,31 @@ $(document).ready(function ()
 
 	MINI_YOU.init(editorElement, canvasElement);
 
-	let code = `{
-	"info": {
-		"name": "Carlos",
-		"author": "cajogos@github"
-	},
-	"body": {
-		"shape": "shape1",
-		"color": "lightblue"
-	},
-	"eyes": {
-		"shape": "basic",
-		"color": "red"
-	},
-	"tops": {
-		"shape": "vneck",
-		"color": "purple"
-	},
-	"bottoms": {
-		"shape": "shorts",
-		"color": "blue"
-	}
+    let testCode =
+`{
+    "info": {
+        "name": "Carlos",
+        "author": "cajogos@github"
+    },
+    "body": {
+        "shape": "shape1",
+        "color": "lightblue"
+    },
+    "eyes": {
+        "shape": "basic",
+        "color": "red"
+    },
+    "tops": {
+        "shape": "vneck",
+        "color": "purple"
+    },
+    "bottoms": {
+        "shape": "shorts",
+        "color": "blue"
+    },
+    "shoes": {
+        "color": "brown"
+    }
 }`;
-
-	MINI_YOU.EDITOR.setText(code);
+    MINI_YOU.EDITOR.setText(testCode);
 });
